@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" hasGeneTrack="true" hasSequenceTrack="true" locus="chrX:154540211-154567033" version="8">
+    <Resources>
+        <Resource name="hg38.Mappability_150bp.tdf" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.Mappability_150bp.tdf"/>
+        <Resource name="hg38.Homopolymer_7x.bed" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.Homopolymer_7x.bed"/>
+        <Resource name="hg38.symmetricDUST_level30.bed" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.symmetricDUST_level30.bed"/>
+        <Resource name="hg38.TRF.bed" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.TRF.bed"/>
+        <Resource name="hg38.gnomAD_gcov_median_absZ.tdf" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.gnomAD_gcov_median_absZ.tdf"/>
+        <Resource name="GTEx_v8_exon_tpm.GRCh38_p13.maximum.tdf" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/GTEx_v8_exon_tpm.GRCh38_p13.maximum.tdf"/>
+        <Resource name="hg38_genome.UNMET_bin10bp.tdf" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38_genome.UNMET_bin10bp.tdf"/>
+        <Resource name="hg38.DGV.GS.bed" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.DGV.GS.bed"/>
+        <Resource name="hg38.altSeqLiftOverPsl.bed.gz" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.altSeqLiftOverPsl.bed.gz"/>
+    </Resources>
+    <Panel height="455" name="DataPanel" width="2021">
+        <Track attributeKey="hg38_genome.UNMET_bin10bp.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;0.9;0.0;0.97;1.0;0,255,255;255,255,0;255,0,51" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38_genome.UNMET_bin10bp.tdf" name="UNMET score" renderer="HEATMAP" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.9926684" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg38.gnomAD_gcov_median_absZ.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,0,51" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.gnomAD_gcov_median_absZ.tdf" name="gnomAD median coverage absZ" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="9.840678" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg38.Mappability_150bp.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="0,204,204" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.Mappability_150bp.tdf" name="GenMap mappability 150bp" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="hg38.TRF.bed" clazz="org.broad.igv.track.FeatureTrack" color="102,0,51" colorScale="ContinuousColorScale;0.0;1748.0;255,255,255;0,0,178" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.TRF.bed" name="Tandem repeat" visible="true"/>
+        <Track attributeKey="hg38.Homopolymer_7x.bed" clazz="org.broad.igv.track.FeatureTrack" color="153,153,0" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.Homopolymer_7x.bed" name="Homopolymer (&gt;7x)" visible="true"/>
+        <Track attributeKey="hg38.symmetricDUST_level30.bed" clazz="org.broad.igv.track.FeatureTrack" color="51,102,0" colorScale="ContinuousColorScale;0.0;3552.0;255,255,255;0,0,178" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.symmetricDUST_level30.bed" name="Low complexity region" visible="true"/>
+        <Track attributeKey="GTEx_v8_exon_tpm.GRCh38_p13.maximum.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="51,204,255" colorScale="ContinuousColorScale;1.0;0.0;20.0;200.0;0,0,204;255,255,255;255,0,204" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/GTEx_v8_exon_tpm.GRCh38_p13.maximum.tdf" name="GTEx ExonTPM (max tissue)" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="200.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="366" name="FeaturePanel" width="2021">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="Gene" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;845.0;255,255,255;0,0,178" fontSize="10" height="35" id="hg38_genes" name="Gene" visible="true"/>
+        <Track attributeKey="hg38.altSeqLiftOverPsl.bed.gz" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.altSeqLiftOverPsl.bed.gz" name="Alternative loci (UCSC Genome Browser)" visible="true"/>
+        <Track attributeKey="hg38.DGV.GS.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,102,102" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.DGV.GS.bed" name="Structural variants" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.5519323671497585"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
