@@ -1,6 +1,8 @@
 # About UNMET
 
-UNMETスコアは、ショートリードNGSを用いたゲノム配列解析において、信頼性の高いバリアント情報の得られにくさをスコア化したものです。
+UNMET stands for UNified METrics for unmappable, undetectable and unreliable genomic loci with short-read NGS.
+
+UNMETスコアは、ショートリードNGSを用いたゲノム配列解析において、各塩基についてのバリアント検出における分析的妥当性をスコア化したものです。スコアは、[0, 1]の範囲の値をとり、値が1に近いほどNGSでの分析が難しいことを表しています。
 
 
 ## IGVを用いたスコアの可視化
