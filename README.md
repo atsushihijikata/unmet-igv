@@ -28,6 +28,9 @@ IGVを起動し、ファイルメニューから、セッションファイル�
 * gnomADカバレッジ
 	* [gnomAD v3.1](https://gnomad.broadinstitute.org/downloads) の、ゲノムカバレッジ中央値をZスコア化して絶対値化した値。値が大きいほど、平均的な値から外れていることを示す。
 
+* gnomADエクソームカバレッジ
+	* [gnomAD v2.1.1(https://gnomad.broadinstitute.org/downloads)の、エクソームカバレッジの中央値。>100以上は100に固定。
+
 * マッパビリティ
 	* ゲノム上で、リードの配列がユニークにマッピングされる可能性を表す指標（(0, 1]の範囲をとる。マッパビリティ=1は、リードがユニークにマップされることを表す）。
 	* [GenMap](https://academic.oup.com/bioinformatics/article/36/12/3687/5815974)ソフトウェアを用いて算出（パラメータ：リード長=150bp、許容ミスマッチ=2）。
