@@ -1,4 +1,4 @@
-# About UNMET (UNified METrics for analytical validity of variant calls with short-read NGS)
+# About UNMET
 
 UNMETスコアは、ショートリードNGSを用いたゲノム配列解析において、信頼性の高いバリアント情報の得られにくさをスコア化したものです。
 
