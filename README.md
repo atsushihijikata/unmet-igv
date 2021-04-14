@@ -1,26 +1,26 @@
-## About UNMET
+# About UNMET
 
 UNMETスコアは、ショートリードNGSを用いたゲノム配列解析において、信頼性の高いバリアント情報の得られにくさをスコア化したものです。
 
 
-IGVを用いたスコアの可視化
---------
+## IGVを用いたスコアの可視化
 
 IGVを用いて、UNMETスコアを表示させることができます。
 IGVを起動し、ファイルメニューから、セッションファイルを開きます。
 
 
-使い方
------
+#### 使い方
 
 1. 上記"Code"からこのリポジトリのZIPファイルをダウンロードします。
 2. [IGV](https://software.broadinstitute.org/software/igv/download)をダウンロードします。
 3. IGVを起動します。
 4. Fileメニューから、Open Session...を選択し、ダウンロードしたリポジトリから、セッションファイル(UNMET_vYYMMDD_igv_session.xml)を選択します。
 
+#### 表示例
+<img width="1462" alt="UNMET-IGV-session-snapshot" src="https://user-images.githubusercontent.com/2074467/114668588-e2e19d00-9d3b-11eb-96eb-5cc63514966a.png">
 
-各トラックの見方
--------------
+
+#### 各トラックの見方
 
 * UNMET score
 	* 各塩基の難読性（ショートリードNGSを用いた時の信頼性の高いバリアントの得られ難さ）をスコア化した値（[0, 1]の範囲）。値が大きいほど難読性が高いことを示す。
