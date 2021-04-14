@@ -14,7 +14,7 @@ IGVを起動し、ファイルメニューから、セッションファイル�
 1. 上記"Code"からこのリポジトリのZIPファイルをダウンロードします。
 2. [IGV](https://software.broadinstitute.org/software/igv/download)をダウンロードします。
 3. IGVを起動します。
-4. Fileメニューから、Open Session...を選択し、ダウンロードしたリポジトリから、セッションファイル(UNMET_vYYMMDD_igv_session.xml)を選択します。
+4. Fileメニューから、Open Session...を選択し、ダウンロードしたリポジトリから、セッションファイル(UNMET_igv_session.xml)を選択します。
 
 #### 表示例
 <img width="1462" alt="UNMET-IGV-session-snapshot" src="https://user-images.githubusercontent.com/2074467/114668588-e2e19d00-9d3b-11eb-96eb-5cc63514966a.png">
