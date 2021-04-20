@@ -19,7 +19,7 @@ IGVを起動し、ファイルメニューから、セッションファイル�
 4. Fileメニューから、Open Session...を選択し、ダウンロードしたリポジトリから、セッションファイル(UNMET_igv_session.xml)を選択します。
 
 #### 表示例
-<img width="1462" alt="UNMET-IGV-session-snapshot" src="https://user-images.githubusercontent.com/2074467/114668588-e2e19d00-9d3b-11eb-96eb-5cc63514966a.png">
+<img width="1467" alt="UNMET-igv-snapshot" src="https://user-images.githubusercontent.com/2074467/115367252-02c40580-a201-11eb-9133-4eab9bdbe22e.png">
 
 
 #### 各トラックの見方
