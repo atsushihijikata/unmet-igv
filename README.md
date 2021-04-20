@@ -55,7 +55,8 @@ IGVを起動し、ファイルメニューから、セッションファイル�
 * 構造多型情報
 	* [DGV (Database of Genomic Variants)](http://dgv.tcag.ca/dgv/app/home)データベースに登録されている構造多型の情報を示す。
 
-
+* Segmental duplication
+	* UCSC Genome browserに登録されている、SuperDupの情報。
 
 　
 
