@@ -57,6 +57,7 @@ IGVを起動し、ファイルメニューから、セッションファイル�
 
 * Segmental duplication
 	* UCSC Genome browserに登録されている、Segmental Dupsの情報。
+	* 配列類似性によって３つに分けて（99%以上、98%以上99%未満、98%未満）、別々のトラックに表示。
 
 　
 
