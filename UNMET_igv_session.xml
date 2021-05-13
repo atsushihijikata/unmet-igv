@@ -17,7 +17,7 @@
         <Resource name="ucsc_hg38.SegDups_sim_lt98.bed" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/ucsc_hg38.SegDups_sim_lt98.bed"/>
     </Resources>
     <Panel height="320" name="DataPanel" width="1423">
-        <Track altColor="0,255,255" attributeKey="hg38_genome.UNMET_bin10bp.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,0,0" colorScale="ContinuousColorScale;0.9;0.85;0.96;1.0;0,255,255;255,255,0;255,0,51" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38_genome.UNMET_bin10bp.tdf" name="UNMET score" renderer="HEATMAP" visible="true" windowFunction="mean">
+        <Track altColor="0,255,255" attributeKey="hg38_genome.UNMET_bin10bp.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,0,0" colorScale="ContinuousColorScale;0.9;0.85;0.96;0.97;0,255,255;255,255,0;255,0,51" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38_genome.UNMET_bin10bp.tdf" name="UNMET score" renderer="HEATMAP" visible="true" windowFunction="mean">
             <DataRange baseline="0.9" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.8" type="LINEAR"/>
         </Track>
         <Track attributeKey="hg38.gnomAD_gcov_median_absZ.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,0,51" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.gnomAD_gcov_median_absZ.tdf" name="gnomAD median coverage absZ" renderer="BAR_CHART" visible="true" windowFunction="mean">
@@ -48,7 +48,7 @@
     <Panel height="242" name="FeaturePanel" width="1423">
         <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
         <Track attributeKey="Gene" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;845.0;255,255,255;0,0,178" fontSize="10" height="35" id="hg38_genes" name="Gene" visible="true"/>
-        <Track attributeKey="hg38.altSeqLiftOverPsl.bed.gz" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.altSeqLiftOverPsl.bed.gz" name="Alternative loci (UCSC Genome Browser)" visible="true"/>
+        <Track attributeKey="hg38.altSeqLiftOverPsl.bed.gz" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;5.0;255,255,255;0,0,178" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.altSeqLiftOverPsl.bed.gz" name="Alternative loci (UCSC Genome Browser)" visible="true"/>
         <Track attributeKey="hg38.DGV.GS.bed" clazz="org.broad.igv.track.FeatureTrack" color="0,102,102" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.DGV.GS.bed" name="Structural variants (DGV)" visible="true"/>
         <Track attributeKey="ucsc_hg38.SegDups_sim_gte99.bed" clazz="org.broad.igv.track.FeatureTrack" color="255,51,0" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/ucsc_hg38.SegDups_sim_gte99.bed" name="SegDups (UCSC) SIM99%" visible="true"/>
         <Track attributeKey="ucsc_hg38.SegDups_sim_gte98lt99.bed" clazz="org.broad.igv.track.FeatureTrack" color="255,153,0" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/ucsc_hg38.SegDups_sim_gte98lt99.bed" name="SegDups (UCSC) SIM98%" visible="true"/>
