@@ -12,11 +12,12 @@
         <Resource name="GTEx_v8_exon_tpm.GRCh38_p13.maximum.tdf" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/GTEx_v8_exon_tpm.GRCh38_p13.maximum.tdf"/>
         <Resource name="ucsc_hg38.SegDups_sim_gte99.bed" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/ucsc_hg38.SegDups_sim_gte99.bed"/>
         <Resource name="hg38.DGV.GS.bed" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.DGV.GS.bed"/>
+        <Resource index="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/exome/ControlNA12878-IDT166.bwa.dedup.DS.bam.bai" name="ControlNA12878-IDT166.bwa.dedup.DS.bam" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/exome/ControlNA12878-IDT166.bwa.dedup.DS.bam"/>
         <Resource name="hg38.altSeqLiftOverPsl.bed.gz" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.altSeqLiftOverPsl.bed.gz"/>
         <Resource name="ucsc_hg38.SegDups_sim_lt98.bed" path="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/ucsc_hg38.SegDups_sim_lt98.bed"/>
     </Resources>
-    <Panel height="570" name="DataPanel" width="1613">
-        <Track altColor="0,255,255" attributeKey="hg38_genome.UNMET_bin10bp.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,0,0" colorScale="ContinuousColorScale;0.9;0.0;0.97;1.0;0,255,255;255,255,0;255,0,51" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38_genome.UNMET_bin10bp.tdf" name="UNMET score" renderer="BAR_CHART" visible="true" windowFunction="mean">
+    <Panel height="320" name="DataPanel" width="1423">
+        <Track altColor="0,255,255" attributeKey="hg38_genome.UNMET_bin10bp.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,0,0" colorScale="ContinuousColorScale;0.9;0.85;0.96;1.0;0,255,255;255,255,0;255,0,51" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38_genome.UNMET_bin10bp.tdf" name="UNMET score" renderer="HEATMAP" visible="true" windowFunction="mean">
             <DataRange baseline="0.9" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.8" type="LINEAR"/>
         </Track>
         <Track attributeKey="hg38.gnomAD_gcov_median_absZ.tdf" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="204,0,51" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.gnomAD_gcov_median_absZ.tdf" name="gnomAD median coverage absZ" renderer="BAR_CHART" visible="true" windowFunction="mean">
@@ -35,7 +36,16 @@
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="200.0" minimum="0.0" type="LINEAR"/>
         </Track>
     </Panel>
-    <Panel height="454" name="FeaturePanel" width="1613">
+    <Panel height="2340" name="Panel1620876477811" width="1423">
+        <Track attributeKey="ControlNA12878-IDT166.bwa.dedup.DS.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;158.0;255,255,255;175,175,175" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/exome/ControlNA12878-IDT166.bwa.dedup.DS.bam_coverage" name="ExomeCoverage NA12878 seq_on_KDRI" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="158.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="ControlNA12878-IDT166.bwa.dedup.DS.bam Junctions" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/exome/ControlNA12878-IDT166.bwa.dedup.DS.bam_junctions" name="ControlNA12878-IDT166.bwa.dedup.DS.bam Junctions" visible="false"/>
+        <Track attributeKey="ControlNA12878-IDT166.bwa.dedup.DS.bam" clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/exome/ControlNA12878-IDT166.bwa.dedup.DS.bam" name="ExomeBAM NA12878 seq_on_KDRI" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="242" name="FeaturePanel" width="1423">
         <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
         <Track attributeKey="Gene" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;845.0;255,255,255;0,0,178" fontSize="10" height="35" id="hg38_genes" name="Gene" visible="true"/>
         <Track attributeKey="hg38.altSeqLiftOverPsl.bed.gz" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/hg38.altSeqLiftOverPsl.bed.gz" name="Alternative loci (UCSC Genome Browser)" visible="true"/>
@@ -44,7 +54,7 @@
         <Track attributeKey="ucsc_hg38.SegDups_sim_gte98lt99.bed" clazz="org.broad.igv.track.FeatureTrack" color="255,153,0" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/ucsc_hg38.SegDups_sim_gte98lt99.bed" name="SegDups (UCSC) SIM98%" visible="true"/>
         <Track attributeKey="ucsc_hg38.SegDups_sim_lt98.bed" clazz="org.broad.igv.track.FeatureTrack" color="153,153,153" fontSize="10" id="https://mutation.nagahama-i-bio.ac.jp/static/data/hg38/ucsc_hg38.SegDups_sim_lt98.bed" name="SegDups (UCSC) SIM&lt;98%" visible="true"/>
     </Panel>
-    <PanelLayout dividerFractions="0.5548011639185257"/>
+    <PanelLayout dividerFractions="0.4672754946727549,0.624048706240487"/>
     <HiddenAttributes>
         <Attribute name="DATA FILE"/>
         <Attribute name="DATA TYPE"/>
