@@ -32,7 +32,7 @@ The UNMET score for each CDS segment is visualized with Integrated Genome Browse
 * Genome coverage of exome data in gnomAD
 	* The median value of sequencing coverage in [gnomAD v2.1.1](https://gnomad.broadinstitute.org/downloads). If a value greater than 100 it set to 100.
 
-* Genome mappability マッパビリティ
+* Genome mappability
 	* The genome mappability is a metric for a read is uniquly mapped on a single position.
 	* It calculated by using [GenMap](https://academic.oup.com/bioinformatics/article/36/12/3687/5815974) software with read length = 150bp and allowed mismatches = 2.
 
