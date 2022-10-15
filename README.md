@@ -26,35 +26,35 @@ The UNMET score for each CDS segment is visualized with Integrated Genome Browse
 * UNMET score
 	* It represents a degree of the unreliability of variants if a variant is found on the genomic position, ranging from 0 to 1. A higher value means a high degree of difficulty in detection of genomic variant.
 
-* gnomAD_median_coverage_absZ
+* gnomAD_medcov_absZ
 	* Standardized absolute of the median genome coverage in [gnomAD v3.1](https://gnomad.broadinstitute.org/downloads).
 
-* gnomAD_exome_coverage_liftover
+* gnomAD_exome_cov
 	* The median value of sequencing coverage in [gnomAD v2.1.1](https://gnomad.broadinstitute.org/downloads). If a value greater than 100 it set to 100.
 
-* GenMap_mappability_150bp
+* GenMap_mappability
 	* The genome mappability is a metric for a read is uniquly mapped on a single position.
 	* It calculated by using [GenMap](https://academic.oup.com/bioinformatics/article/36/12/3687/5815974) software with read length = 150bp and allowed mismatches = 2.
 
-* Tandem_repeat
+* Tandem-repeats
 	* The data was calculated with [TandemRepeat Finder(TRF)](https://academic.oup.com/nar/article/27/2/573/1061099).
 
-* Homopolymer
+* Homopolymers
 	* The contiguous segment with 7 or more single base.
 
-* Low_complexity_region
+* LCR
 	* The Low complexity region (LCR) regions were calculated with [Symmetric DUST](https://www.liebertpub.com/doi/10.1089/cmb.2006.13.1028?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed).
 
 * GTEx_ExonTPM
 	* The gene expression value (TPM) of each exon were from the [GTEx v8](https://gtexportal.org/home/) data. The values depict the maximum TPM value among the tissues.
 
-* Alternative loci
+* ALT-loci
 	* Human Alternate loci (ALT-loci) information from the UCSC Genome browser.
 
-* Structural variants
+* SV
 	* The structural variants (SV) information was obtained from [DGV (Database of Genomic Variants)](http://dgv.tcag.ca/dgv/app/home).
 
-* Segmental duplication
+* SegDup
 	* The segmental duplication information was obtained from the UCSC Genome browser.
 	* The data were classified into three groups by sequence similarity (>99%, >98%, <98%).
 
