@@ -15,7 +15,7 @@ The UNMET score for each CDS segment is visualized with Integrated Genome Browse
 1. Download Zipped file of this repository from 'Code' shown above the github page.
 2. Download [IGV](https://software.broadinstitute.org/software/igv/download).
 3. Launch IGV on your desktop PC.
-4. Select Open Session... from the File Menu of IGV and open the IGV session file (UNMET_igv_session.xml).
+4. From the 'File' menu on IGV, select 'Open Session...' and open the IGV session file (UNMET_igv_session.xml).
 
 #### Example
 <img width="1467" alt="UNMET-igv-snapshot" src="https://user-images.githubusercontent.com/2074467/115367252-02c40580-a201-11eb-9133-4eab9bdbe22e.png">
