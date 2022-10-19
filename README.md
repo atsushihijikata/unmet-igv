@@ -48,6 +48,12 @@ The UNMET score for each CDS segment is visualized with Integrated Genome Browse
 * GTEx_ExonTPM
 	* The gene expression value (TPM) of each exon were from the [GTEx v8](https://gtexportal.org/home/) data. The values depict the maximum TPM value among the tissues.
 
+* ExomeCoverage_NA12878
+  * Exome coverage map for the NA12878 sample.
+
+* ExomeBAM_NA12878
+  * The BAM file of the exome data for the NA12878 sample.
+
 * ALT-loci
 	* Human Alternate loci (ALT-loci) information from the UCSC Genome browser.
 
@@ -58,12 +64,7 @@ The UNMET score for each CDS segment is visualized with Integrated Genome Browse
 	* The segmental duplication information was obtained from the UCSC Genome browser.
 	* The data were classified into three groups by sequence similarity (>99%, >98%, <98%).
 
-* ExomeCoverage_NA12878
-  * Exome coverage map for the NA12878 sample.
 
-* ExomeBAM_NA12878
-  * The BAM file of the exome data for the NA12878 sample.
-　
 
 
 
