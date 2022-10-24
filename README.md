@@ -21,7 +21,7 @@ The UNMET score for each CDS segment is visualized with Integrated Genome Browse
 <img width="1467" alt="UNMET-igv-snapshot" src="https://user-images.githubusercontent.com/2074467/115367252-02c40580-a201-11eb-9133-4eab9bdbe22e.png">
 
 
-#### Feature trucks
+#### Feature tracks
 
 * UNMET score
 	* It represents a degree of the unreliability of variants if a variant is found on the genomic position, ranging from 0 to 1. A higher value means a high degree of difficulty in detection of genomic variant.
